@@ -4,7 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="cd7fbe85-0bbb-4f5f-9672-6d1d7dc4ac14" name="Changes" comment="" />
+    <list default="true" id="cd7fbe85-0bbb-4f5f-9672-6d1d7dc4ac14" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/../Actions_with_numbers/Actions_with_numbers.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Actions_with_numbers/Actions_with_numbers.py" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -41,7 +43,7 @@
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "com.intellij.pycharm.community.ide.impl.configuration.PythonContentEntriesConfigurable",
+    "settings.editor.selected.configurable": "com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
@@ -64,6 +66,7 @@
       <workItem from="1747696892642" duration="17000" />
       <workItem from="1747696921470" duration="69000" />
       <workItem from="1747726299063" duration="3832000" />
+      <workItem from="1747756886972" duration="3309000" />
     </task>
     <servers />
   </component>

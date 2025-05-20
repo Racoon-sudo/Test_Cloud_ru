@@ -9,11 +9,11 @@ driver = webdriver.Firefox(service=Service(GeckoDriverManager().install()))
 
 driver.get("https://example.com")
 title = driver.title
-sub = "Example"
+subject = "Example"
 orig_site = "https://www.iana.org/help/example-domains"
 el = "body > div > p:nth-child(3) > a"
 
-if sub in title:
+if subject in title:
     driver.find_element(By.CSS_SELECTOR, el).click()
     if driver.current_url == orig_site:
         print("Вы перешли на правильный сайт.")
