@@ -57,5 +57,3 @@ pip install -r requirements.txt
 * Браузер Mozilla Firefox
 * библиотека selenium (ver. 4.23.0)
 * библиотека webdriver-manager (ver. 4.0.2)
-
-## 
