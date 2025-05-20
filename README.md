@@ -4,7 +4,7 @@
 
 ## О проекте
 
-Проект содержит программу для работы со списком чисел Actions_with_numbers и скрипт для проверки сайта Website_test.
+Проект содержит программу для работы со списком чисел Actions_with_numbers и скрипт для проверки сайта Website_test (написан на Python ver. 3.13).
 
 ## Actions_with_numbers
 
