@@ -1,4 +1,4 @@
-# Two_in_One
+# Test_Cloud_ru
 
 Выполнение тестового задания для Cloud.ruCamp
 
