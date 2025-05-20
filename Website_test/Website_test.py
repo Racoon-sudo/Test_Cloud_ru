@@ -11,10 +11,10 @@ driver.get("https://example.com")
 title = driver.title
 sub = "Example"
 orig_site = "https://www.iana.org/help/example-domains"
+el = "body > div > p:nth-child(3) > a"
 
 if sub in title:
-    driver.find_elements(By.CSS_SELECTOR, "#body > div:nth-child(1) > p:nth-child(3) > a:nth-child(1)")
-    driver.find_element(By.LINK_TEXT, "More information...").click()
+    driver.find_element(By.CSS_SELECTOR, el).click()
     if driver.current_url == orig_site:
         print("Вы перешли на правильный сайт!")
     else:
