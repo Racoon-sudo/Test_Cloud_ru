@@ -16,7 +16,7 @@ el = "body > div > p:nth-child(3) > a"
 if sub in title:
     driver.find_element(By.CSS_SELECTOR, el).click()
     if driver.current_url == orig_site:
-        print("Вы перешли на правильный сайт!")
+        print("Вы перешли на правильный сайт.")
     else:
         print("Кажется, сайт обновили, это не он.")
 else:
