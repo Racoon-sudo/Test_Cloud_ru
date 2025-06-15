@@ -15,10 +15,7 @@ el = "body > div > p:nth-child(3) > a"
 
 if subject in title:
     driver.find_element(By.CSS_SELECTOR, el).click()
-    if driver.current_url == orig_site:
-        print("Вы перешли на правильный сайт.")
-    else:
-        print("Кажется, сайт обновили, это не он.")
+    print("Вы перешли на правильный сайт.") if driver.current_url == orig_site else print("Кажется, сайт обновили, это не он.")
 else:
     print("Неверный сайт, заголовок не совпал!")
 
